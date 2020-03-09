@@ -1,0 +1,3508 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0fd464382f38448d847bbb909dd58d96 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0fd464382f38448d847bbb909dd58d96" ></div>
+        
+</body>
+<script>    
+    
+            var map_0fd464382f38448d847bbb909dd58d96 = L.map(
+                "map_0fd464382f38448d847bbb909dd58d96",
+                {
+                    center: [45.424721, -75.695],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_29a5921e02474954b0f876622f98e6ff = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var marker_c2e9379a203f4f79bea72693f436c959 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_65cb66662deb41dd9cc63e1932ca983f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_c2e9379a203f4f79bea72693f436c959.setIcon(icon_65cb66662deb41dd9cc63e1932ca983f);
+        
+    
+            marker_c2e9379a203f4f79bea72693f436c959.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab37673b50b04cd590639c389b9884ab = L.marker(
+                [45.4296856, -75.6885901],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_8dd3f71ff88a4d57a8d176ea7bc552a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_ab37673b50b04cd590639c389b9884ab.setIcon(icon_8dd3f71ff88a4d57a8d176ea7bc552a6);
+        
+    
+        var popup_c86cdace1ea7444daebf7f23d40cd988 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_bc6d19d0a2f8496abd0c4c57edddafa7 = $(`<div id="html_bc6d19d0a2f8496abd0c4c57edddafa7" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/beautiful-furnished-all-inclusive-one-bedroom-condo-downtown/1490575856 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1950.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">180 York St, Ottawa, ON K1N 1J6, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_c86cdace1ea7444daebf7f23d40cd988.setContent(html_bc6d19d0a2f8496abd0c4c57edddafa7);
+        
+
+        marker_ab37673b50b04cd590639c389b9884ab.bindPopup(popup_c86cdace1ea7444daebf7f23d40cd988)
+        ;
+
+        
+    
+    
+            marker_ab37673b50b04cd590639c389b9884ab.bindTooltip(
+                `<div>
+                     $1950.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b75d421b10f4f6ea5b37892a87b75f6 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_90105b984bcd472094acf15ebd2b831b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_1b75d421b10f4f6ea5b37892a87b75f6.setIcon(icon_90105b984bcd472094acf15ebd2b831b);
+        
+    
+            marker_1b75d421b10f4f6ea5b37892a87b75f6.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e2b452dd2624205963ec86f6246433d = L.marker(
+                [45.40832590000001, -75.6747123],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_db78dec2579649588791c8f787ed28ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_4e2b452dd2624205963ec86f6246433d.setIcon(icon_db78dec2579649588791c8f787ed28ec);
+        
+    
+        var popup_f3584833439a43048dfbb2acb3eeffb6 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_2d57639be6c14f72858ce09f52e876db = $(`<div id="html_2d57639be6c14f72858ce09f52e876db" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/large-new-furnished-studio-downtown/1490995080 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1950.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">530 De Mazenod Ave, Ottawa, ON K1S 5W8, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_f3584833439a43048dfbb2acb3eeffb6.setContent(html_2d57639be6c14f72858ce09f52e876db);
+        
+
+        marker_4e2b452dd2624205963ec86f6246433d.bindPopup(popup_f3584833439a43048dfbb2acb3eeffb6)
+        ;
+
+        
+    
+    
+            marker_4e2b452dd2624205963ec86f6246433d.bindTooltip(
+                `<div>
+                     $1950.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c2ad9ff64ea4b1f8ec4a442b7ad3de4 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_1f756efcaa7346bf8c2f1d0ddcbe7de6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_8c2ad9ff64ea4b1f8ec4a442b7ad3de4.setIcon(icon_1f756efcaa7346bf8c2f1d0ddcbe7de6);
+        
+    
+            marker_8c2ad9ff64ea4b1f8ec4a442b7ad3de4.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_066a2f02cdf342c8981887bfe1a9d42f = L.marker(
+                [45.41755029999999, -75.68939019999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_92b96d6e9cf7459c96154547cafcceb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_066a2f02cdf342c8981887bfe1a9d42f.setIcon(icon_92b96d6e9cf7459c96154547cafcceb7);
+        
+    
+        var popup_b4c1ba4ad02f4288be381f37f476971d = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_82f0714d0faf4ec3867f1030fb90d87b = $(`<div id="html_82f0714d0faf4ec3867f1030fb90d87b" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/fully-furnished-newly-renovated-1-bedroom-suites/1490961728 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1700.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">163 MacLaren St, Ottawa, ON, K2P 0K8</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_b4c1ba4ad02f4288be381f37f476971d.setContent(html_82f0714d0faf4ec3867f1030fb90d87b);
+        
+
+        marker_066a2f02cdf342c8981887bfe1a9d42f.bindPopup(popup_b4c1ba4ad02f4288be381f37f476971d)
+        ;
+
+        
+    
+    
+            marker_066a2f02cdf342c8981887bfe1a9d42f.bindTooltip(
+                `<div>
+                     $1700.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bc0f9771ec240b1889cd3b75bc45429 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_cc4469a4749c4eadbbf4d4529b7e88cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_2bc0f9771ec240b1889cd3b75bc45429.setIcon(icon_cc4469a4749c4eadbbf4d4529b7e88cc);
+        
+    
+            marker_2bc0f9771ec240b1889cd3b75bc45429.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd13cd16eb2048f580cff64c19553270 = L.marker(
+                [45.4208766, -75.67345420000001],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_1a78272b25854b6cbb4e5f9d9c73eccd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_dd13cd16eb2048f580cff64c19553270.setIcon(icon_1a78272b25854b6cbb4e5f9d9c73eccd);
+        
+    
+        var popup_08113a5217254f68aa977b59b2d9b944 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_78d2fd6772c14b1990d9371942d24eb6 = $(`<div id="html_78d2fd6772c14b1990d9371942d24eb6" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/may-3rd-fully-furnished-bachelor-sandy-hill-87-mann/1490703011 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1375.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">87 Mann Avenue, Ottawa, ON, K1N 6Y8</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_08113a5217254f68aa977b59b2d9b944.setContent(html_78d2fd6772c14b1990d9371942d24eb6);
+        
+
+        marker_dd13cd16eb2048f580cff64c19553270.bindPopup(popup_08113a5217254f68aa977b59b2d9b944)
+        ;
+
+        
+    
+    
+            marker_dd13cd16eb2048f580cff64c19553270.bindTooltip(
+                `<div>
+                     $1375.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc419f9f0dfb47b6b7f004905b23a67a = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_506625de40f745009fc528b0432ca596 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_cc419f9f0dfb47b6b7f004905b23a67a.setIcon(icon_506625de40f745009fc528b0432ca596);
+        
+    
+            marker_cc419f9f0dfb47b6b7f004905b23a67a.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c76abc69f48746ea9b585e1a8d58bfd3 = L.marker(
+                [45.4208766, -75.67345420000001],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_4b7f2ecdbfd24c7c9db16c6a3799437a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_c76abc69f48746ea9b585e1a8d58bfd3.setIcon(icon_4b7f2ecdbfd24c7c9db16c6a3799437a);
+        
+    
+        var popup_90c36d63537745408e6ad3fbd41146d6 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_cc219714225543fea869a8c7707def46 = $(`<div id="html_cc219714225543fea869a8c7707def46" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/fully-furnished-studio-apartments-the-spire-ottawa-87-mann/1486349528 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1375.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">87 Mann Avenue, Ottawa, ON, K1N 6Y8</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_90c36d63537745408e6ad3fbd41146d6.setContent(html_cc219714225543fea869a8c7707def46);
+        
+
+        marker_c76abc69f48746ea9b585e1a8d58bfd3.bindPopup(popup_90c36d63537745408e6ad3fbd41146d6)
+        ;
+
+        
+    
+    
+            marker_c76abc69f48746ea9b585e1a8d58bfd3.bindTooltip(
+                `<div>
+                     $1375.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a096e429af6f43b8a9e01143039324dc = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_9e7d53e0f7384ee29be0cfe01bfb6100 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_a096e429af6f43b8a9e01143039324dc.setIcon(icon_9e7d53e0f7384ee29be0cfe01bfb6100);
+        
+    
+            marker_a096e429af6f43b8a9e01143039324dc.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7be0448964b4e03a58aa276b4f842d8 = L.marker(
+                [45.4312467, -75.6861268],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_0dba3ce9e4cc4963bbba0939c9a1b048 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_d7be0448964b4e03a58aa276b4f842d8.setIcon(icon_0dba3ce9e4cc4963bbba0939c9a1b048);
+        
+    
+        var popup_c722be2f9810474c9ea30c64b8a0a5a2 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_1b44e79bd7ac4120a5576bc6f7d4d879 = $(`<div id="html_1b44e79bd7ac4120a5576bc6f7d4d879" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/furnished-1-bedroom-den-the-new-york-253-york-street/1489700263 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1995.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">253 York Street, Ottawa, ON, K1N 5T9</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_c722be2f9810474c9ea30c64b8a0a5a2.setContent(html_1b44e79bd7ac4120a5576bc6f7d4d879);
+        
+
+        marker_d7be0448964b4e03a58aa276b4f842d8.bindPopup(popup_c722be2f9810474c9ea30c64b8a0a5a2)
+        ;
+
+        
+    
+    
+            marker_d7be0448964b4e03a58aa276b4f842d8.bindTooltip(
+                `<div>
+                     $1995.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d01b8e2aaafc4b50ace44218cc77ed37 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_ed0e44964cbb442f9abaa46a6ca2eff9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_d01b8e2aaafc4b50ace44218cc77ed37.setIcon(icon_ed0e44964cbb442f9abaa46a6ca2eff9);
+        
+    
+            marker_d01b8e2aaafc4b50ace44218cc77ed37.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c7e60478c65462ca5cc4626698abf58 = L.marker(
+                [45.4312467, -75.6861268],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_2f29eb0fd57248a8a083fa72768830f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_7c7e60478c65462ca5cc4626698abf58.setIcon(icon_2f29eb0fd57248a8a083fa72768830f3);
+        
+    
+        var popup_306f5f988eaf458ba3cf813debfa2d37 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_22d54ca291c54b2499c2eb025b27048e = $(`<div id="html_22d54ca291c54b2499c2eb025b27048e" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/furnished-studio-suites-the-new-york-253-york-street/1489621415 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1595.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">253 York Street, Ottawa, ON, K1N 5T9</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_306f5f988eaf458ba3cf813debfa2d37.setContent(html_22d54ca291c54b2499c2eb025b27048e);
+        
+
+        marker_7c7e60478c65462ca5cc4626698abf58.bindPopup(popup_306f5f988eaf458ba3cf813debfa2d37)
+        ;
+
+        
+    
+    
+            marker_7c7e60478c65462ca5cc4626698abf58.bindTooltip(
+                `<div>
+                     $1595.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5d89b6727bb4f22a6273dd1be9049b0 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_5dac9e6da871497da50dd0603c0cf88d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_f5d89b6727bb4f22a6273dd1be9049b0.setIcon(icon_5dac9e6da871497da50dd0603c0cf88d);
+        
+    
+            marker_f5d89b6727bb4f22a6273dd1be9049b0.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9399885710ca4fc0a0ccc758c66739b4 = L.marker(
+                [45.43092799999999, -75.6814265],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_ce54a79fd3324d73928f33c7638ce3a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_9399885710ca4fc0a0ccc758c66739b4.setIcon(icon_ce54a79fd3324d73928f33c7638ce3a3);
+        
+    
+        var popup_e414547134dd40a0ada2458cbc80559b = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_c5e7f49727ed49e298cf2d355279953e = $(`<div id="html_c5e7f49727ed49e298cf2d355279953e" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/furnished-bachelor-suite-downtown-available-now/1470396848 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1700.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">160 Chapel St. Ottawa, ON K1N 8P5, Ottawa, ON, K1N 8P5</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_e414547134dd40a0ada2458cbc80559b.setContent(html_c5e7f49727ed49e298cf2d355279953e);
+        
+
+        marker_9399885710ca4fc0a0ccc758c66739b4.bindPopup(popup_e414547134dd40a0ada2458cbc80559b)
+        ;
+
+        
+    
+    
+            marker_9399885710ca4fc0a0ccc758c66739b4.bindTooltip(
+                `<div>
+                     $1700.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4129b6cf2c34edf903b8f6bbf53ac71 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_100fe28f8eea4a7fa8477ddbb7115139 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_d4129b6cf2c34edf903b8f6bbf53ac71.setIcon(icon_100fe28f8eea4a7fa8477ddbb7115139);
+        
+    
+            marker_d4129b6cf2c34edf903b8f6bbf53ac71.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a58ae346aeb461fa120fbaab33787b7 = L.marker(
+                [45.4166976, -75.7083072],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_b832ea61d6844e719421d0444d097256 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_1a58ae346aeb461fa120fbaab33787b7.setIcon(icon_b832ea61d6844e719421d0444d097256);
+        
+    
+        var popup_0ba939e697d542778e9fa713fa80e626 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_24272b9a427548d3ac6d543b8cf11cde = $(`<div id="html_24272b9a427548d3ac6d543b8cf11cde" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/studio-apartment-downtown-ottawa-with-parking/1490816952 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1750.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">95 Bronson Ave, Ottawa, ON K1R 1E2, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_0ba939e697d542778e9fa713fa80e626.setContent(html_24272b9a427548d3ac6d543b8cf11cde);
+        
+
+        marker_1a58ae346aeb461fa120fbaab33787b7.bindPopup(popup_0ba939e697d542778e9fa713fa80e626)
+        ;
+
+        
+    
+    
+            marker_1a58ae346aeb461fa120fbaab33787b7.bindTooltip(
+                `<div>
+                     $1750.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_946d6902263b4e2b84919febddc8e9d9 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_bd193477d56e4452b42abb5fe8052ae3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_946d6902263b4e2b84919febddc8e9d9.setIcon(icon_bd193477d56e4452b42abb5fe8052ae3);
+        
+    
+            marker_946d6902263b4e2b84919febddc8e9d9.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e18271325f14323826bf1a05a342119 = L.marker(
+                [45.4186928, -75.6905738],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_458640951f3d483eb4da83a468c91307 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_6e18271325f14323826bf1a05a342119.setIcon(icon_458640951f3d483eb4da83a468c91307);
+        
+    
+        var popup_b375d9b114b84cfd9d368fbc93f8f070 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_f1d500fc297d48b8b629339db0a189f8 = $(`<div id="html_f1d500fc297d48b8b629339db0a189f8" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/1-bedroom-luxury-centretown-apartment-sublet-may-august/1490802068 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1650.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">Cooper St, Ottawa, ON K2P 0E8, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_b375d9b114b84cfd9d368fbc93f8f070.setContent(html_f1d500fc297d48b8b629339db0a189f8);
+        
+
+        marker_6e18271325f14323826bf1a05a342119.bindPopup(popup_b375d9b114b84cfd9d368fbc93f8f070)
+        ;
+
+        
+    
+    
+            marker_6e18271325f14323826bf1a05a342119.bindTooltip(
+                `<div>
+                     $1650.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50be1f61819944c49ffa7f5eed7eff4f = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_394c2d05f4224fdeabd2eb377155a591 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_50be1f61819944c49ffa7f5eed7eff4f.setIcon(icon_394c2d05f4224fdeabd2eb377155a591);
+        
+    
+            marker_50be1f61819944c49ffa7f5eed7eff4f.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0728804ba4a45e2b034ab970471db1c = L.marker(
+                [45.4116247, -75.69747319999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_910890c859a54b71a28324b792283f6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_c0728804ba4a45e2b034ab970471db1c.setIcon(icon_910890c859a54b71a28324b792283f6b);
+        
+    
+        var popup_a02244f7258f4093bbeb71c65f03be2d = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_fd303e1d749546dd863c08a0b4a12d86 = $(`<div id="html_fd303e1d749546dd863c08a0b4a12d86" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/beautiful-1-bed-1-bath-in-centretown-with-parking/1490752928 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1900.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">83 Florence St, Ottawa, ON K1R 5N1, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_a02244f7258f4093bbeb71c65f03be2d.setContent(html_fd303e1d749546dd863c08a0b4a12d86);
+        
+
+        marker_c0728804ba4a45e2b034ab970471db1c.bindPopup(popup_a02244f7258f4093bbeb71c65f03be2d)
+        ;
+
+        
+    
+    
+            marker_c0728804ba4a45e2b034ab970471db1c.bindTooltip(
+                `<div>
+                     $1900.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8b5c2a78f16418d9ce4cbdd5afd46d8 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_9644b0ef912c4c98983fef90b37e7e1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_d8b5c2a78f16418d9ce4cbdd5afd46d8.setIcon(icon_9644b0ef912c4c98983fef90b37e7e1e);
+        
+    
+            marker_d8b5c2a78f16418d9ce4cbdd5afd46d8.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b036e06480614c2e8f84530fc4749cbf = L.marker(
+                [45.4377402, -75.6615338],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_f7fb69e8b73549629942fab5140a1c4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_b036e06480614c2e8f84530fc4749cbf.setIcon(icon_f7fb69e8b73549629942fab5140a1c4a);
+        
+    
+        var popup_7073c50e204347419995e89d6910aae4 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_1cf0fe7f453a4e1d9a3880cc842eae26 = $(`<div id="html_1cf0fe7f453a4e1d9a3880cc842eae26" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/cozy-1-bed-1-bath-apartment-near-downtown/1490770738 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1600.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">262 Carillon St, Vanier, ON K1L 5X6, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_7073c50e204347419995e89d6910aae4.setContent(html_1cf0fe7f453a4e1d9a3880cc842eae26);
+        
+
+        marker_b036e06480614c2e8f84530fc4749cbf.bindPopup(popup_7073c50e204347419995e89d6910aae4)
+        ;
+
+        
+    
+    
+            marker_b036e06480614c2e8f84530fc4749cbf.bindTooltip(
+                `<div>
+                     $1600.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7619892dda07498e9e0e212f71c41def = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_b55f4d344c0647579734345aa12a2ed4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_7619892dda07498e9e0e212f71c41def.setIcon(icon_b55f4d344c0647579734345aa12a2ed4);
+        
+    
+            marker_7619892dda07498e9e0e212f71c41def.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45f3d6a3e3fc49499ed8a19a47c226d0 = L.marker(
+                [26.2290579, -80.12375899999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_6c9723e77cbf49c6bcf2199277e5899d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_45f3d6a3e3fc49499ed8a19a47c226d0.setIcon(icon_6c9723e77cbf49c6bcf2199277e5899d);
+        
+    
+        var popup_1d30dfda2f454ae382b1f1a0e34742e3 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_57293425a6654b20bbd1da48d64128c1 = $(`<div id="html_57293425a6654b20bbd1da48d64128c1" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/floride-condominium-a-louer/1490766909 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$2000.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">259 S Cypress Rd, H7N1T1, Pompano Beach, ON, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_1d30dfda2f454ae382b1f1a0e34742e3.setContent(html_57293425a6654b20bbd1da48d64128c1);
+        
+
+        marker_45f3d6a3e3fc49499ed8a19a47c226d0.bindPopup(popup_1d30dfda2f454ae382b1f1a0e34742e3)
+        ;
+
+        
+    
+    
+            marker_45f3d6a3e3fc49499ed8a19a47c226d0.bindTooltip(
+                `<div>
+                     $2000.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3768fbc6335149c4b6ef01b7fe884d98 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_6f0aac22bc0c4c9ca9c950c763faec92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_3768fbc6335149c4b6ef01b7fe884d98.setIcon(icon_6f0aac22bc0c4c9ca9c950c763faec92);
+        
+    
+            marker_3768fbc6335149c4b6ef01b7fe884d98.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b779f3d065224a6ca15d0103b5697324 = L.marker(
+                [45.3793386, -75.65343589999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_4505e32098104cdeab441c7b85eae6f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "pink", "prefix": "fas fa"}
+            );
+            marker_b779f3d065224a6ca15d0103b5697324.setIcon(icon_4505e32098104cdeab441c7b85eae6f9);
+        
+    
+        var popup_be0840b5b22e49e2bf14b8d2de1e2c67 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_b10aefed9c5f40c38bd357ad0f06338e = $(`<div id="html_b10aefed9c5f40c38bd357ad0f06338e" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/one-bedroom-fully-furnished-for-short-term-or-long-term/1490378214 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1275.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">1490 Heron Rd, Ottawa, ON K1V 7P7, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_be0840b5b22e49e2bf14b8d2de1e2c67.setContent(html_b10aefed9c5f40c38bd357ad0f06338e);
+        
+
+        marker_b779f3d065224a6ca15d0103b5697324.bindPopup(popup_be0840b5b22e49e2bf14b8d2de1e2c67)
+        ;
+
+        
+    
+    
+            marker_b779f3d065224a6ca15d0103b5697324.bindTooltip(
+                `<div>
+                     $1275.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8fc0fb0c9754e5c8407b953b8dac3f8 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_1411132f90f64619aaec3c0932d96fe2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_c8fc0fb0c9754e5c8407b953b8dac3f8.setIcon(icon_1411132f90f64619aaec3c0932d96fe2);
+        
+    
+            marker_c8fc0fb0c9754e5c8407b953b8dac3f8.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9668610a67d4458b9c3cbb552bec8853 = L.marker(
+                [45.40301880000001, -75.7273917],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_af96675be6b1442c87c6d460bf7beef9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_9668610a67d4458b9c3cbb552bec8853.setIcon(icon_af96675be6b1442c87c6d460bf7beef9);
+        
+    
+        var popup_e9853d05da7d4a1f9ba612da81850c99 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_cd15f03bd20948c881904324a2d14fad = $(`<div id="html_cd15f03bd20948c881904324a2d14fad" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/one-bedroom-fully-furnished-all-inclusive/1490706880 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1700.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">276 Carruthers Ave, Ottawa, ON K1Y 1N9, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_e9853d05da7d4a1f9ba612da81850c99.setContent(html_cd15f03bd20948c881904324a2d14fad);
+        
+
+        marker_9668610a67d4458b9c3cbb552bec8853.bindPopup(popup_e9853d05da7d4a1f9ba612da81850c99)
+        ;
+
+        
+    
+    
+            marker_9668610a67d4458b9c3cbb552bec8853.bindTooltip(
+                `<div>
+                     $1700.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_400b7ccdebd743179a62981b7479a837 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_c383afff933c4cc5add7dab92118db35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_400b7ccdebd743179a62981b7479a837.setIcon(icon_c383afff933c4cc5add7dab92118db35);
+        
+    
+            marker_400b7ccdebd743179a62981b7479a837.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb467ad084b842448abb3ad357818e3c = L.marker(
+                [45.4273499, -75.68827759999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_3707bd1e057846a88458a73cefc0dbfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "pink", "prefix": "fas fa"}
+            );
+            marker_bb467ad084b842448abb3ad357818e3c.setIcon(icon_3707bd1e057846a88458a73cefc0dbfa);
+        
+    
+        var popup_e23cfe2e5be04b1783365078bd94e66a = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_22e45348c4f147ecaaa5d7ed858f3d20 = $(`<div id="html_22e45348c4f147ecaaa5d7ed858f3d20" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/200-rideau-street-ottawa-on/1490621142 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1200.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">200 Rideau St, Ottawa, ON K1N 5Y1, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_e23cfe2e5be04b1783365078bd94e66a.setContent(html_22e45348c4f147ecaaa5d7ed858f3d20);
+        
+
+        marker_bb467ad084b842448abb3ad357818e3c.bindPopup(popup_e23cfe2e5be04b1783365078bd94e66a)
+        ;
+
+        
+    
+    
+            marker_bb467ad084b842448abb3ad357818e3c.bindTooltip(
+                `<div>
+                     $1200.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fba5f1f118d24e4688ffb46a4d98feed = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_5934eb6008ad45b893dad32f73d5be0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_fba5f1f118d24e4688ffb46a4d98feed.setIcon(icon_5934eb6008ad45b893dad32f73d5be0a);
+        
+    
+            marker_fba5f1f118d24e4688ffb46a4d98feed.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea2ae3ba6071401eb763cdf620b43ea8 = L.marker(
+                [45.4290087, -75.6878022],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_0ae7b1622c4f4fa99cb3d14527831043 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_ea2ae3ba6071401eb763cdf620b43ea8.setIcon(icon_0ae7b1622c4f4fa99cb3d14527831043);
+        
+    
+        var popup_1ff459fff0b94740bc11b11b7a687172 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_6c4850379e3148859a57f38beb4503cb = $(`<div id="html_6c4850379e3148859a57f38beb4503cb" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/1-bedroom-fully-furnished-byward-market-condo/1490503867 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1800.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">179 George St, Ottawa, ON K1N 1J8, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_1ff459fff0b94740bc11b11b7a687172.setContent(html_6c4850379e3148859a57f38beb4503cb);
+        
+
+        marker_ea2ae3ba6071401eb763cdf620b43ea8.bindPopup(popup_1ff459fff0b94740bc11b11b7a687172)
+        ;
+
+        
+    
+    
+            marker_ea2ae3ba6071401eb763cdf620b43ea8.bindTooltip(
+                `<div>
+                     $1800.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6512e4b887c34f4097bc46a49fbfd2af = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_fea55c7b11364c8993f6517b06ec20ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_6512e4b887c34f4097bc46a49fbfd2af.setIcon(icon_fea55c7b11364c8993f6517b06ec20ac);
+        
+    
+            marker_6512e4b887c34f4097bc46a49fbfd2af.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4c979f7255f433c862302652535ca06 = L.marker(
+                [45.4311444, -75.6443462],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_7afddf5c13454fa79904bfe356469e28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_d4c979f7255f433c862302652535ca06.setIcon(icon_7afddf5c13454fa79904bfe356469e28);
+        
+    
+        var popup_4c1fa84ffae245c1ad063b823947824f = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_63281e3bfc2b45ecbd5056a266c49524 = $(`<div id="html_63281e3bfc2b45ecbd5056a266c49524" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/furnished-one-bedroom-apartment-ottawa-east-available-now/1490493191 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1500.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">K1K1H3, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_4c1fa84ffae245c1ad063b823947824f.setContent(html_63281e3bfc2b45ecbd5056a266c49524);
+        
+
+        marker_d4c979f7255f433c862302652535ca06.bindPopup(popup_4c1fa84ffae245c1ad063b823947824f)
+        ;
+
+        
+    
+    
+            marker_d4c979f7255f433c862302652535ca06.bindTooltip(
+                `<div>
+                     $1500.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8824e58a286740a1a1908bd67b96daa2 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_cd0a7c2156b84bf08070afb36085d9f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_8824e58a286740a1a1908bd67b96daa2.setIcon(icon_cd0a7c2156b84bf08070afb36085d9f1);
+        
+    
+            marker_8824e58a286740a1a1908bd67b96daa2.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a96cf4066de748c3be0834f80c4acdc2 = L.marker(
+                [45.4358014, -75.6928463],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_33278b3f5cb94702a017c39a791ebbfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_a96cf4066de748c3be0834f80c4acdc2.setIcon(icon_33278b3f5cb94702a017c39a791ebbfd);
+        
+    
+        var popup_c7dc2a71bab9412bbb1b209a7268013c = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_c87252fa4ffe4033bb40daee12bfd028 = $(`<div id="html_c87252fa4ffe4033bb40daee12bfd028" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/short-term-1-bedroom-apartment-end-of-byward-market-move-in-now/1490412234 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1750.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">198 Boteler St, Ottawa, ON K1N 5A7, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_c7dc2a71bab9412bbb1b209a7268013c.setContent(html_c87252fa4ffe4033bb40daee12bfd028);
+        
+
+        marker_a96cf4066de748c3be0834f80c4acdc2.bindPopup(popup_c7dc2a71bab9412bbb1b209a7268013c)
+        ;
+
+        
+    
+    
+            marker_a96cf4066de748c3be0834f80c4acdc2.bindTooltip(
+                `<div>
+                     $1750.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a87090b26eb6493c97bf91e371fc8021 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_38b28f4bc0e3467d8be7c63e225a76f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_a87090b26eb6493c97bf91e371fc8021.setIcon(icon_38b28f4bc0e3467d8be7c63e225a76f1);
+        
+    
+            marker_a87090b26eb6493c97bf91e371fc8021.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dded511da4c14b5dba8a6ddb3832d87b = L.marker(
+                [45.41755029999999, -75.68939019999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_b5e371d68bde4cbf8d80a036d1665082 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_dded511da4c14b5dba8a6ddb3832d87b.setIcon(icon_b5e371d68bde4cbf8d80a036d1665082);
+        
+    
+        var popup_b889445c50a345ed88c16989b9510d91 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_8d961f475d4f4dccbf2db8fde06f5bb0 = $(`<div id="html_8d961f475d4f4dccbf2db8fde06f5bb0" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/newly-renovated-fully-furnished-1-bedroom/1490362477 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1700.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">163 MacLaren St, Ottawa, ON, K2P 0K8</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_b889445c50a345ed88c16989b9510d91.setContent(html_8d961f475d4f4dccbf2db8fde06f5bb0);
+        
+
+        marker_dded511da4c14b5dba8a6ddb3832d87b.bindPopup(popup_b889445c50a345ed88c16989b9510d91)
+        ;
+
+        
+    
+    
+            marker_dded511da4c14b5dba8a6ddb3832d87b.bindTooltip(
+                `<div>
+                     $1700.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a13a740c079841ce8168b372f23e08b5 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_7f09c5eaaa7045d794eea09743b4899a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_a13a740c079841ce8168b372f23e08b5.setIcon(icon_7f09c5eaaa7045d794eea09743b4899a);
+        
+    
+            marker_a13a740c079841ce8168b372f23e08b5.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b98849283af49f5befa3a40b6eb145a = L.marker(
+                [45.3997306, -75.6663901],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_e74ab7193d9845d1b1d76ca13bbea65a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_9b98849283af49f5befa3a40b6eb145a.setIcon(icon_e74ab7193d9845d1b1d76ca13bbea65a);
+        
+    
+        var popup_90f56d8198fc4c1ab97e1d43674426cd = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_4733a8f7370940ce95a2e5daa4bd59ba = $(`<div id="html_4733a8f7370940ce95a2e5daa4bd59ba" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/ideal-location:-one-bedroom-apt-near-lrt-sublet-may-1-aug-31/1490339949 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1315.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">1833 Frobisher Ln, Ottawa, ON K1G 0E8, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_90f56d8198fc4c1ab97e1d43674426cd.setContent(html_4733a8f7370940ce95a2e5daa4bd59ba);
+        
+
+        marker_9b98849283af49f5befa3a40b6eb145a.bindPopup(popup_90f56d8198fc4c1ab97e1d43674426cd)
+        ;
+
+        
+    
+    
+            marker_9b98849283af49f5befa3a40b6eb145a.bindTooltip(
+                `<div>
+                     $1315.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f55a9ae6b0448c29715c81094eaf35b = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_fee6ad8c0df8418983f5d38f319705d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_8f55a9ae6b0448c29715c81094eaf35b.setIcon(icon_fee6ad8c0df8418983f5d38f319705d8);
+        
+    
+            marker_8f55a9ae6b0448c29715c81094eaf35b.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c883b002d54440ab719005faf20504e = L.marker(
+                [45.38575470000001, -75.7360893],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_77d16bb7a7fc40f39bbbe9127f6bf3e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_4c883b002d54440ab719005faf20504e.setIcon(icon_77d16bb7a7fc40f39bbbe9127f6bf3e7);
+        
+    
+        var popup_cf2761e0e92549428a4609de3dc2874f = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_489cb5579c3646b2b4839c7e00998015 = $(`<div id="html_489cb5579c3646b2b4839c7e00998015" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/relocating-to-ottawa-with-military-hht-ir/1490321746 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1600.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">1335 Carling Ave, Ottawa, ON K1Z 8N8, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_cf2761e0e92549428a4609de3dc2874f.setContent(html_489cb5579c3646b2b4839c7e00998015);
+        
+
+        marker_4c883b002d54440ab719005faf20504e.bindPopup(popup_cf2761e0e92549428a4609de3dc2874f)
+        ;
+
+        
+    
+    
+            marker_4c883b002d54440ab719005faf20504e.bindTooltip(
+                `<div>
+                     $1600.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9904a9772c6b4406a65546903cdb7f9c = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_624651f57c944a4fa5e378ebc79a0c47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_9904a9772c6b4406a65546903cdb7f9c.setIcon(icon_624651f57c944a4fa5e378ebc79a0c47);
+        
+    
+            marker_9904a9772c6b4406a65546903cdb7f9c.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3cb39ae629a40d6909c330df768ea69 = L.marker(
+                [45.4278254, -75.6871333],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_2c3a01fa3d494a39b5b26da534344ea3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_b3cb39ae629a40d6909c330df768ea69.setIcon(icon_2c3a01fa3d494a39b5b26da534344ea3);
+        
+    
+        var popup_d12ecfb74d934d708da57ff38479c64f = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_c7969c0c48e34374b8c1eaa4459478f9 = $(`<div id="html_c7969c0c48e34374b8c1eaa4459478f9" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/furnished-luxury-bachelor-condo-at-center-downtown-ottawa-1490/1490267448 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1490.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">242 Rideau St, Ottawa, ON K1N 0B7, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_d12ecfb74d934d708da57ff38479c64f.setContent(html_c7969c0c48e34374b8c1eaa4459478f9);
+        
+
+        marker_b3cb39ae629a40d6909c330df768ea69.bindPopup(popup_d12ecfb74d934d708da57ff38479c64f)
+        ;
+
+        
+    
+    
+            marker_b3cb39ae629a40d6909c330df768ea69.bindTooltip(
+                `<div>
+                     $1490.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1925a976bff4f729bfe8d96ca9869c8 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_5dceedf0983f40788cce37baee323a79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_f1925a976bff4f729bfe8d96ca9869c8.setIcon(icon_5dceedf0983f40788cce37baee323a79);
+        
+    
+            marker_f1925a976bff4f729bfe8d96ca9869c8.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd80a40eaaaa47d1b01c4bfdfe79216e = L.marker(
+                [45.4229888, -75.7396373],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_65a326c35b644d63ab6836ed593ab9e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "pink", "prefix": "fas fa"}
+            );
+            marker_fd80a40eaaaa47d1b01c4bfdfe79216e.setIcon(icon_65a326c35b644d63ab6836ed593ab9e7);
+        
+    
+        var popup_d32a1538deac42b3a9976d2e3dff0ff3 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_f72aa66653534a5c9d656e25314a9dee = $(`<div id="html_f72aa66653534a5c9d656e25314a9dee" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/magnificent-1-bdrm-minutes-from-ottawa-available-now/1490265671 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1225.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">1 rue de la cooperation, Gatineau J9A 1H8 QC</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_d32a1538deac42b3a9976d2e3dff0ff3.setContent(html_f72aa66653534a5c9d656e25314a9dee);
+        
+
+        marker_fd80a40eaaaa47d1b01c4bfdfe79216e.bindPopup(popup_d32a1538deac42b3a9976d2e3dff0ff3)
+        ;
+
+        
+    
+    
+            marker_fd80a40eaaaa47d1b01c4bfdfe79216e.bindTooltip(
+                `<div>
+                     $1225.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9646e9fba2854c1dba19fe49df844fb2 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_a4f62c3fd5d44666b1cfa17c6c57eb99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_9646e9fba2854c1dba19fe49df844fb2.setIcon(icon_a4f62c3fd5d44666b1cfa17c6c57eb99);
+        
+    
+            marker_9646e9fba2854c1dba19fe49df844fb2.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86a5bc7e96fd40a6b5e912b5732c7fc4 = L.marker(
+                [45.4286294, -75.7163272],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_b1767b0d82e24c76ab4c6283d7cb143f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "pink", "prefix": "fas fa"}
+            );
+            marker_86a5bc7e96fd40a6b5e912b5732c7fc4.setIcon(icon_b1767b0d82e24c76ab4c6283d7cb143f);
+        
+    
+        var popup_102c1aba88fa47e29b3d3df99091a24d = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_31c6d486d75141999b7bb79d8a6692fa = $(`<div id="html_31c6d486d75141999b7bb79d8a6692fa" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/1-br-furnished-apt-parking-inc-heart-of-portage-1-150/1490254564 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1150.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">, J8X 4E8, Gatineau, QC</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_102c1aba88fa47e29b3d3df99091a24d.setContent(html_31c6d486d75141999b7bb79d8a6692fa);
+        
+
+        marker_86a5bc7e96fd40a6b5e912b5732c7fc4.bindPopup(popup_102c1aba88fa47e29b3d3df99091a24d)
+        ;
+
+        
+    
+    
+            marker_86a5bc7e96fd40a6b5e912b5732c7fc4.bindTooltip(
+                `<div>
+                     $1150.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f3d2bb850564f3ba1c2b97a3cf9a355 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_2915e0304cdf46d69be643e4febddb3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_4f3d2bb850564f3ba1c2b97a3cf9a355.setIcon(icon_2915e0304cdf46d69be643e4febddb3a);
+        
+    
+            marker_4f3d2bb850564f3ba1c2b97a3cf9a355.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36a66667d38349ec869faa98f628020f = L.marker(
+                [45.427416, -75.68012399999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_2ed43a19d14c4be69fa725c52d3db770 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "pink", "prefix": "fas fa"}
+            );
+            marker_36a66667d38349ec869faa98f628020f.setIcon(icon_2ed43a19d14c4be69fa725c52d3db770);
+        
+    
+        var popup_bc0e5c6b00554bd6a043443e432a78aa = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_a2d9ecdc04344b30bf3c8eda2b3db6eb = $(`<div id="html_a2d9ecdc04344b30bf3c8eda2b3db6eb" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/bachelor-apartment-summer-rental-may-august-2020/1490147150 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1275.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">Friel St., K1N7W7, Ottawa, ON</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_bc0e5c6b00554bd6a043443e432a78aa.setContent(html_a2d9ecdc04344b30bf3c8eda2b3db6eb);
+        
+
+        marker_36a66667d38349ec869faa98f628020f.bindPopup(popup_bc0e5c6b00554bd6a043443e432a78aa)
+        ;
+
+        
+    
+    
+            marker_36a66667d38349ec869faa98f628020f.bindTooltip(
+                `<div>
+                     $1275.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6bbf735bb6cb4c1e8688bb348a5358c2 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_b276b0db819a42b08cab674dbf8f4d1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_6bbf735bb6cb4c1e8688bb348a5358c2.setIcon(icon_b276b0db819a42b08cab674dbf8f4d1a);
+        
+    
+            marker_6bbf735bb6cb4c1e8688bb348a5358c2.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a9ab094f5624d45a61840594d20a50c = L.marker(
+                [45.414756, -75.6983554],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_61f673ea62e04b1eb447a3c9007a75c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_2a9ab094f5624d45a61840594d20a50c.setIcon(icon_61f673ea62e04b1eb447a3c9007a75c1);
+        
+    
+        var popup_d39688baf7c5411dbd01da2d9bf8b67f = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_30fb3c69ffd642e9a3c0b6261c6a834d = $(`<div id="html_30fb3c69ffd642e9a3c0b6261c6a834d" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/studio-apartment-3-min-walking-distance-to-business-buildings/1490089404 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1350.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">429 Somerset St W, Ottawa, ON K2P 2P5, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_d39688baf7c5411dbd01da2d9bf8b67f.setContent(html_30fb3c69ffd642e9a3c0b6261c6a834d);
+        
+
+        marker_2a9ab094f5624d45a61840594d20a50c.bindPopup(popup_d39688baf7c5411dbd01da2d9bf8b67f)
+        ;
+
+        
+    
+    
+            marker_2a9ab094f5624d45a61840594d20a50c.bindTooltip(
+                `<div>
+                     $1350.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1be485a6e0a4ce3b05cfd9dff4242b1 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_2305faa4a543422386fb46e9c54356e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_e1be485a6e0a4ce3b05cfd9dff4242b1.setIcon(icon_2305faa4a543422386fb46e9c54356e7);
+        
+    
+            marker_e1be485a6e0a4ce3b05cfd9dff4242b1.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c056f93d9804e048b2e70872e04f7b8 = L.marker(
+                [45.4321779, -75.687373],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_2094ecbf924e40809ed8a9d63471b270 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "pink", "prefix": "fas fa"}
+            );
+            marker_7c056f93d9804e048b2e70872e04f7b8.setIcon(icon_2094ecbf924e40809ed8a9d63471b270);
+        
+    
+        var popup_4348515301c24fcabf0dd538c4229d73 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_8a959e14e7874cf8886242de020245f6 = $(`<div id="html_8a959e14e7874cf8886242de020245f6" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/downtown-ottawa-rideau-center-by-ward-market-areas-for-rent:-1/1489999241 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1200.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">270 Murray St. Murray Street, K1N5N2, Ottawa, ON</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_4348515301c24fcabf0dd538c4229d73.setContent(html_8a959e14e7874cf8886242de020245f6);
+        
+
+        marker_7c056f93d9804e048b2e70872e04f7b8.bindPopup(popup_4348515301c24fcabf0dd538c4229d73)
+        ;
+
+        
+    
+    
+            marker_7c056f93d9804e048b2e70872e04f7b8.bindTooltip(
+                `<div>
+                     $1200.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac0660fd6c604bc1b5d22e2d96e62d1d = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_a83d468692fe4e009db357066cef981e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_ac0660fd6c604bc1b5d22e2d96e62d1d.setIcon(icon_a83d468692fe4e009db357066cef981e);
+        
+    
+            marker_ac0660fd6c604bc1b5d22e2d96e62d1d.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd61eb7934e049c0a2d2629af0ab80a8 = L.marker(
+                [45.4181921, -75.6993538],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_754ef87a5c774f0b89c600a21841b0ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_bd61eb7934e049c0a2d2629af0ab80a8.setIcon(icon_754ef87a5c774f0b89c600a21841b0ff);
+        
+    
+        var popup_adb0bc50e3b14f32b83d39fe947b3980 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_78dc3aced94c49c3b791fb6c1634c65e = $(`<div id="html_78dc3aced94c49c3b791fb6c1634c65e" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/fully-furnished-mondrian-downtown-ottawa/1485944164 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1900.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">324 Laurier Ave W, Ottawa, ON K1P 0A4, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_adb0bc50e3b14f32b83d39fe947b3980.setContent(html_78dc3aced94c49c3b791fb6c1634c65e);
+        
+
+        marker_bd61eb7934e049c0a2d2629af0ab80a8.bindPopup(popup_adb0bc50e3b14f32b83d39fe947b3980)
+        ;
+
+        
+    
+    
+            marker_bd61eb7934e049c0a2d2629af0ab80a8.bindTooltip(
+                `<div>
+                     $1900.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84defbc85c8f46e7aa8a0d5d1461805e = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_51d316ac5cfe45669001691329c347e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_84defbc85c8f46e7aa8a0d5d1461805e.setIcon(icon_51d316ac5cfe45669001691329c347e8);
+        
+    
+            marker_84defbc85c8f46e7aa8a0d5d1461805e.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8acb768ba3b477ab69bab8bd366e870 = L.marker(
+                [45.3611793, -75.6972025],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_49bd9739816e44d0a0b74417712bb098 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "pink", "prefix": "fas fa"}
+            );
+            marker_c8acb768ba3b477ab69bab8bd366e870.setIcon(icon_49bd9739816e44d0a0b74417712bb098);
+        
+    
+        var popup_5d699af5c6af4d9bbd703dd779d53725 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_ac1020a24871436094c26e4990e9c3ca = $(`<div id="html_ac1020a24871436094c26e4990e9c3ca" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/1-bedroom-fully-furnished-all-inclusive-wifi-carleton-height/1489889854 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1275.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">462 Rahul Crescent, Ottawa, ON K2C 4H7, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_5d699af5c6af4d9bbd703dd779d53725.setContent(html_ac1020a24871436094c26e4990e9c3ca);
+        
+
+        marker_c8acb768ba3b477ab69bab8bd366e870.bindPopup(popup_5d699af5c6af4d9bbd703dd779d53725)
+        ;
+
+        
+    
+    
+            marker_c8acb768ba3b477ab69bab8bd366e870.bindTooltip(
+                `<div>
+                     $1275.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f56a71b893554ae0950edb2eb9f57ea2 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_8caca61eaf184937b307037e0a7e8c9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_f56a71b893554ae0950edb2eb9f57ea2.setIcon(icon_8caca61eaf184937b307037e0a7e8c9e);
+        
+    
+            marker_f56a71b893554ae0950edb2eb9f57ea2.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3d97645a9704e4e80a98389ba9c9a07 = L.marker(
+                [45.4273937, -75.6835791],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_490162f7718f4d3783a0bb12beb60315 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_b3d97645a9704e4e80a98389ba9c9a07.setIcon(icon_490162f7718f4d3783a0bb12beb60315);
+        
+    
+        var popup_81add38a9a4b4c33bdb8db9029c1caf8 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_9e3f888b004d419ab3723192e5c2eec4 = $(`<div id="html_9e3f888b004d419ab3723192e5c2eec4" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/1-bedroom-sublet-125-stewart-st-sandy-hill/1489799924 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1550.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">125 Stewart St, K1N 6J3, Ottawa, ON</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_81add38a9a4b4c33bdb8db9029c1caf8.setContent(html_9e3f888b004d419ab3723192e5c2eec4);
+        
+
+        marker_b3d97645a9704e4e80a98389ba9c9a07.bindPopup(popup_81add38a9a4b4c33bdb8db9029c1caf8)
+        ;
+
+        
+    
+    
+            marker_b3d97645a9704e4e80a98389ba9c9a07.bindTooltip(
+                `<div>
+                     $1550.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a377421c39a04304ad827818fb419fa9 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_6197fb7a37b5434a9557886daf06c341 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_a377421c39a04304ad827818fb419fa9.setIcon(icon_6197fb7a37b5434a9557886daf06c341);
+        
+    
+            marker_a377421c39a04304ad827818fb419fa9.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e895b7e5da7140949022f0705c20ce62 = L.marker(
+                [45.424871, -75.65878370000001],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_a93cddf45c144ec79457f3c08ffa75e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_e895b7e5da7140949022f0705c20ce62.setIcon(icon_a93cddf45c144ec79457f3c08ffa75e1);
+        
+    
+        var popup_60c363dc951742b2a24cce07bc9e766b = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_04f43e899544429da819266dcb8d76fb = $(`<div id="html_04f43e899544429da819266dcb8d76fb" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/furnished-apartment-sandy-hill-overbrook/1489743356 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1600.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">131 Queen Mary St, Ottawa, ON K1K 1X4, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_60c363dc951742b2a24cce07bc9e766b.setContent(html_04f43e899544429da819266dcb8d76fb);
+        
+
+        marker_e895b7e5da7140949022f0705c20ce62.bindPopup(popup_60c363dc951742b2a24cce07bc9e766b)
+        ;
+
+        
+    
+    
+            marker_e895b7e5da7140949022f0705c20ce62.bindTooltip(
+                `<div>
+                     $1600.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c86684e06fc4fee9446880026b87492 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_2db089c10287452ca6cfa7f2489d3839 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_9c86684e06fc4fee9446880026b87492.setIcon(icon_2db089c10287452ca6cfa7f2489d3839);
+        
+    
+            marker_9c86684e06fc4fee9446880026b87492.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bab44f4d48442a9b71d958200aa68dc = L.marker(
+                [45.3926014, -75.6190998],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_5da7a7bf34e7492fa0acced92e783f4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_2bab44f4d48442a9b71d958200aa68dc.setIcon(icon_5da7a7bf34e7492fa0acced92e783f4c);
+        
+    
+        var popup_3175a18771744c2f9c469047680abd1c = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_dd0374210e2c417fbe4df794a8d2f8fd = $(`<div id="html_dd0374210e2c417fbe4df794a8d2f8fd" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/all-inclusive-studio-apartment/1489649627 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1400.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">2303 Joliffe St, Ottawa, ON K1G 1H4, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_3175a18771744c2f9c469047680abd1c.setContent(html_dd0374210e2c417fbe4df794a8d2f8fd);
+        
+
+        marker_2bab44f4d48442a9b71d958200aa68dc.bindPopup(popup_3175a18771744c2f9c469047680abd1c)
+        ;
+
+        
+    
+    
+            marker_2bab44f4d48442a9b71d958200aa68dc.bindTooltip(
+                `<div>
+                     $1400.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1999c2d2cf754a25a511d509f0a2929d = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_b084ff67104c4dfba25a2d1101365058 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_1999c2d2cf754a25a511d509f0a2929d.setIcon(icon_b084ff67104c4dfba25a2d1101365058);
+        
+    
+            marker_1999c2d2cf754a25a511d509f0a2929d.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad335de9cb92465993c69bd61581c87d = L.marker(
+                [45.3983203, -75.71175199999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_e16762e9689d4526aa0ea757fa241954 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_ad335de9cb92465993c69bd61581c87d.setIcon(icon_e16762e9689d4526aa0ea757fa241954);
+        
+    
+        var popup_8253d9c28b2e4a2f897904e54b6f2a8c = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_76d74499c2f14f4faf508e770243d9a1 = $(`<div id="html_76d74499c2f14f4faf508e770243d9a1" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/1-bedroom-apartment-furnished-or-unfurnished-in-little-italy/1489625078 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1700.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">100 Champagne Ave S, Ottawa, ON K1S 4P4, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_8253d9c28b2e4a2f897904e54b6f2a8c.setContent(html_76d74499c2f14f4faf508e770243d9a1);
+        
+
+        marker_ad335de9cb92465993c69bd61581c87d.bindPopup(popup_8253d9c28b2e4a2f897904e54b6f2a8c)
+        ;
+
+        
+    
+    
+            marker_ad335de9cb92465993c69bd61581c87d.bindTooltip(
+                `<div>
+                     $1700.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72e07eb8acf043cb9255405f46d47f28 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_9192c176c2a54d2f8c435ecedeedbff9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_72e07eb8acf043cb9255405f46d47f28.setIcon(icon_9192c176c2a54d2f8c435ecedeedbff9);
+        
+    
+            marker_72e07eb8acf043cb9255405f46d47f28.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4c54034ff89409d86247c801cf38e84 = L.marker(
+                [45.43759120000001, -75.6622716],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_6c9f6b14580f4cfa98d9b60271228199 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_f4c54034ff89409d86247c801cf38e84.setIcon(icon_6c9f6b14580f4cfa98d9b60271228199);
+        
+    
+        var popup_beba70d6d9794776be280b5b32ecd659 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_f8d4fcf0715c41169990cd5574d641f5 = $(`<div id="html_f8d4fcf0715c41169990cd5574d641f5" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/gorgeous-1-bedroom-apartment-in-vanier/1489604198 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1700.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">Carillon St, Vanier, ON K1L 5X6, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_beba70d6d9794776be280b5b32ecd659.setContent(html_f8d4fcf0715c41169990cd5574d641f5);
+        
+
+        marker_f4c54034ff89409d86247c801cf38e84.bindPopup(popup_beba70d6d9794776be280b5b32ecd659)
+        ;
+
+        
+    
+    
+            marker_f4c54034ff89409d86247c801cf38e84.bindTooltip(
+                `<div>
+                     $1700.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edc3b49ac4c94734a1fc2c5ac12a74a3 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_a8c2143c04924cf0b1c806a375c94ef4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_edc3b49ac4c94734a1fc2c5ac12a74a3.setIcon(icon_a8c2143c04924cf0b1c806a375c94ef4);
+        
+    
+            marker_edc3b49ac4c94734a1fc2c5ac12a74a3.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_238b8729883e4b588637f8b8da07c3f5 = L.marker(
+                [43.62613839999999, -79.4773393],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_fee7bbf5ed904c48bd97fdc29c4cd156 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_238b8729883e4b588637f8b8da07c3f5.setIcon(icon_fee7bbf5ed904c48bd97fdc29c4cd156);
+        
+    
+        var popup_d9496fe37c284fbf84eef0e952a2af9f = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_24df0bc58eea47b99e0c354771388fa3 = $(`<div id="html_24df0bc58eea47b99e0c354771388fa3" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/lakeshore-1bdrm-condo-for-rent/1489343574 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1800.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">80 Marine Parade Dr, Etobicoke, ON M8V 0A3, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_d9496fe37c284fbf84eef0e952a2af9f.setContent(html_24df0bc58eea47b99e0c354771388fa3);
+        
+
+        marker_238b8729883e4b588637f8b8da07c3f5.bindPopup(popup_d9496fe37c284fbf84eef0e952a2af9f)
+        ;
+
+        
+    
+    
+            marker_238b8729883e4b588637f8b8da07c3f5.bindTooltip(
+                `<div>
+                     $1800.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38d98131dac64a969a45d72979888968 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_5608874bd2d54d498cd4da0a1f6277e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_38d98131dac64a969a45d72979888968.setIcon(icon_5608874bd2d54d498cd4da0a1f6277e8);
+        
+    
+            marker_38d98131dac64a969a45d72979888968.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b31974f8dbf4dceb4421ea95066e9a4 = L.marker(
+                [45.40544320000001, -75.7286994],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_6dbcbf5ce65648d5bdfae313a9c03e2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_7b31974f8dbf4dceb4421ea95066e9a4.setIcon(icon_6dbcbf5ce65648d5bdfae313a9c03e2f);
+        
+    
+        var popup_62c34e521f254e0cb91d3713b1b906ae = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_4b8934184dbd4faeaa5fd331e9137638 = $(`<div id="html_4b8934184dbd4faeaa5fd331e9137638" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/1-bdrm-executive-suite-turnkey-hintonburg/1489185329 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1675.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">Carruthers Ave, Ottawa, ON K1Y, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_62c34e521f254e0cb91d3713b1b906ae.setContent(html_4b8934184dbd4faeaa5fd331e9137638);
+        
+
+        marker_7b31974f8dbf4dceb4421ea95066e9a4.bindPopup(popup_62c34e521f254e0cb91d3713b1b906ae)
+        ;
+
+        
+    
+    
+            marker_7b31974f8dbf4dceb4421ea95066e9a4.bindTooltip(
+                `<div>
+                     $1675.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e622d10c4ccb4d8ba7f6f47edb714d08 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_c3d60abb67874628b4a38ab41b39b20f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_e622d10c4ccb4d8ba7f6f47edb714d08.setIcon(icon_c3d60abb67874628b4a38ab41b39b20f);
+        
+    
+            marker_e622d10c4ccb4d8ba7f6f47edb714d08.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f0bcdf48d594143898a20ed075ab4bb = L.marker(
+                [45.4100784, -75.69117589999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_72e1c89106be4f68af5201d70579af32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_2f0bcdf48d594143898a20ed075ab4bb.setIcon(icon_72e1c89106be4f68af5201d70579af32);
+        
+    
+        var popup_db685d33985e445980be26064bd51dcc = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_5449b8fad69c4edab0fe7fc5196031be = $(`<div id="html_5449b8fad69c4edab0fe7fc5196031be" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/new-soba-condos-furnished-1-bed-w-balcony-great-view/1489148036 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1700.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">203 Catherine St, Ottawa, ON K2P 1C3, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_db685d33985e445980be26064bd51dcc.setContent(html_5449b8fad69c4edab0fe7fc5196031be);
+        
+
+        marker_2f0bcdf48d594143898a20ed075ab4bb.bindPopup(popup_db685d33985e445980be26064bd51dcc)
+        ;
+
+        
+    
+    
+            marker_2f0bcdf48d594143898a20ed075ab4bb.bindTooltip(
+                `<div>
+                     $1700.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee8e7abc294d4ef4ab08f982126b7a44 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_2feb50c835154b54b34c53d40fdd8d43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_ee8e7abc294d4ef4ab08f982126b7a44.setIcon(icon_2feb50c835154b54b34c53d40fdd8d43);
+        
+    
+            marker_ee8e7abc294d4ef4ab08f982126b7a44.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd7d7f8ee11a491787cc4a5ef933ece1 = L.marker(
+                [45.4292902, -75.688254],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_3d051b8d666a4205b2034f566d8625e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_cd7d7f8ee11a491787cc4a5ef933ece1.setIcon(icon_3d051b8d666a4205b2034f566d8625e7);
+        
+    
+        var popup_9418760dfb684bacad68db7087c2e608 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_2c9a0f3151004de58993b9409feb666e = $(`<div id="html_2c9a0f3151004de58993b9409feb666e" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/condo-in-byward-market-1700/1489062341 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1700.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">383 Cumberland St, Ottawa, ON K1N 1J7, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_9418760dfb684bacad68db7087c2e608.setContent(html_2c9a0f3151004de58993b9409feb666e);
+        
+
+        marker_cd7d7f8ee11a491787cc4a5ef933ece1.bindPopup(popup_9418760dfb684bacad68db7087c2e608)
+        ;
+
+        
+    
+    
+            marker_cd7d7f8ee11a491787cc4a5ef933ece1.bindTooltip(
+                `<div>
+                     $1700.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4767580b76a49c4b8bbed12671a9383 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_b578c01ab3654db1a0a90b42188fc928 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_e4767580b76a49c4b8bbed12671a9383.setIcon(icon_b578c01ab3654db1a0a90b42188fc928);
+        
+    
+            marker_e4767580b76a49c4b8bbed12671a9383.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51176a8f6d7c47ea8c3016cc68c18d13 = L.marker(
+                [45.3664273, -75.79335019999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_fe0ff2cc4b4644bf9daeec06edd9cb79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_51176a8f6d7c47ea8c3016cc68c18d13.setIcon(icon_fe0ff2cc4b4644bf9daeec06edd9cb79);
+        
+    
+        var popup_420f4883c3f44fafa7bd5949abd8faa7 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_1bc72231d1884f37b49f5bb8beafd664 = $(`<div id="html_1bc72231d1884f37b49f5bb8beafd664" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/fully-furnished-one-bedroom-condo-near-carling-campus/1488987327 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1600.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">265 Poulin Ave, Ottawa, ON K2B 7Y8, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_420f4883c3f44fafa7bd5949abd8faa7.setContent(html_1bc72231d1884f37b49f5bb8beafd664);
+        
+
+        marker_51176a8f6d7c47ea8c3016cc68c18d13.bindPopup(popup_420f4883c3f44fafa7bd5949abd8faa7)
+        ;
+
+        
+    
+    
+            marker_51176a8f6d7c47ea8c3016cc68c18d13.bindTooltip(
+                `<div>
+                     $1600.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2f090b06e8346d6bf2812c1aa2f1fc3 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_4b415f1253f14cc19a7ebddde7220c60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_d2f090b06e8346d6bf2812c1aa2f1fc3.setIcon(icon_4b415f1253f14cc19a7ebddde7220c60);
+        
+    
+            marker_d2f090b06e8346d6bf2812c1aa2f1fc3.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f68cdc9e22dd440c87ad10391a1da931 = L.marker(
+                [45.4278254, -75.6871333],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_2a2367ea006d4d759be40e7eea8dcf90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_f68cdc9e22dd440c87ad10391a1da931.setIcon(icon_2a2367ea006d4d759be40e7eea8dcf90);
+        
+    
+        var popup_397cc91ed15147edabf294e772fc978e = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_a4da27f3a01b4968a27c0904b6ba3075 = $(`<div id="html_a4da27f3a01b4968a27c0904b6ba3075" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/luxury-bachelor-condo-at-heart-of-ottawa-for-rent/1488913069 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1490.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">242 Rideau, K1N 0B7, Ottawa, ON</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_397cc91ed15147edabf294e772fc978e.setContent(html_a4da27f3a01b4968a27c0904b6ba3075);
+        
+
+        marker_f68cdc9e22dd440c87ad10391a1da931.bindPopup(popup_397cc91ed15147edabf294e772fc978e)
+        ;
+
+        
+    
+    
+            marker_f68cdc9e22dd440c87ad10391a1da931.bindTooltip(
+                `<div>
+                     $1490.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b52fe5c42df34fdc8efdc8502098852a = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_ad5ffc2e56ad480cbf45b5b3ee0ff7d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_b52fe5c42df34fdc8efdc8502098852a.setIcon(icon_ad5ffc2e56ad480cbf45b5b3ee0ff7d5);
+        
+    
+            marker_b52fe5c42df34fdc8efdc8502098852a.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5325d1756af64e679a4e1be4270f830f = L.marker(
+                [45.4354962, -75.6494416],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_6b17ea9b9b724699ad42c92a2848ff00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "pink", "prefix": "fas fa"}
+            );
+            marker_5325d1756af64e679a4e1be4270f830f.setIcon(icon_6b17ea9b9b724699ad42c92a2848ff00);
+        
+    
+        var popup_562bd34487564a9dae05647b655f7e5d = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_9f5a7f311c9e4f74936798164974ecd7 = $(`<div id="html_9f5a7f311c9e4f74936798164974ecd7" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/1-bedroom-furnished-apartment-all-inclusive-5-min-to-downtown/1488774556 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1000.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">415 Coté St, Ottawa, ON K1K, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_562bd34487564a9dae05647b655f7e5d.setContent(html_9f5a7f311c9e4f74936798164974ecd7);
+        
+
+        marker_5325d1756af64e679a4e1be4270f830f.bindPopup(popup_562bd34487564a9dae05647b655f7e5d)
+        ;
+
+        
+    
+    
+            marker_5325d1756af64e679a4e1be4270f830f.bindTooltip(
+                `<div>
+                     $1000.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1d7a196cf1846d88ab14be281d46851 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_65b3ef0938ac42d08e24d8683ab9c94e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_c1d7a196cf1846d88ab14be281d46851.setIcon(icon_65b3ef0938ac42d08e24d8683ab9c94e);
+        
+    
+            marker_c1d7a196cf1846d88ab14be281d46851.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea6004e4ce0e48b2a4c37c931ba8a687 = L.marker(
+                [45.3664273, -75.79335019999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_6c0b2ab7f4ba41699a2bf1df58446984 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_ea6004e4ce0e48b2a4c37c931ba8a687.setIcon(icon_6c0b2ab7f4ba41699a2bf1df58446984);
+        
+    
+        var popup_67b6a0b8ddb64a9c8d27cdf658cf4700 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_5dd9f5ae7e0b457087819d31ebf2d8a4 = $(`<div id="html_5dd9f5ae7e0b457087819d31ebf2d8a4" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/1-br-furnished-caf-ottawa-live-next-to-ndhq-carling-ir/1478763101 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1600.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">265 Poulin Ave, Ottawa, ON K2B 7Y8, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_67b6a0b8ddb64a9c8d27cdf658cf4700.setContent(html_5dd9f5ae7e0b457087819d31ebf2d8a4);
+        
+
+        marker_ea6004e4ce0e48b2a4c37c931ba8a687.bindPopup(popup_67b6a0b8ddb64a9c8d27cdf658cf4700)
+        ;
+
+        
+    
+    
+            marker_ea6004e4ce0e48b2a4c37c931ba8a687.bindTooltip(
+                `<div>
+                     $1600.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b350811782b434f837c28a5844fa930 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_4d538c12bd5f4672a5385eb09afad2fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_0b350811782b434f837c28a5844fa930.setIcon(icon_4d538c12bd5f4672a5385eb09afad2fc);
+        
+    
+            marker_0b350811782b434f837c28a5844fa930.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef92303a4d8b41bca93b57edfad49047 = L.marker(
+                [45.4021908, -75.7346074],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_0c3c6ac38c9647d290e1aaa562ca82fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_ef92303a4d8b41bca93b57edfad49047.setIcon(icon_0c3c6ac38c9647d290e1aaa562ca82fe);
+        
+    
+        var popup_352b5c36f25f4a04bdb020059090621c = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_5e5624839320445e8df62ddb30169a11 = $(`<div id="html_5e5624839320445e8df62ddb30169a11" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/1-bedroom-furnished-all-inclusive/1488491693 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1750.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">Huron Ave N, Ottawa, ON K1Y 0V9, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_352b5c36f25f4a04bdb020059090621c.setContent(html_5e5624839320445e8df62ddb30169a11);
+        
+
+        marker_ef92303a4d8b41bca93b57edfad49047.bindPopup(popup_352b5c36f25f4a04bdb020059090621c)
+        ;
+
+        
+    
+    
+            marker_ef92303a4d8b41bca93b57edfad49047.bindTooltip(
+                `<div>
+                     $1750.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45d8f5942cde46bbb933f0a90b6e8b6d = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_474315041faa436ca11cfa913ad89404 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_45d8f5942cde46bbb933f0a90b6e8b6d.setIcon(icon_474315041faa436ca11cfa913ad89404);
+        
+    
+            marker_45d8f5942cde46bbb933f0a90b6e8b6d.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff39c5be7d4949b9a8bef59baec9996a = L.marker(
+                [45.40832590000001, -75.6747123],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_efe96eaa1abb4da4a2dcda24b02974ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_ff39c5be7d4949b9a8bef59baec9996a.setIcon(icon_efe96eaa1abb4da4a2dcda24b02974ba);
+        
+    
+        var popup_b653d29fa25c4ab28ea6c853376d1ecb = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_0b2e58b7a3af46118b84a82e2bc342e1 = $(`<div id="html_0b2e58b7a3af46118b84a82e2bc342e1" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/large-furnished-studio-for-rent-downtown/1488378260 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1950.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">530 De Mazenod Ave, Ottawa, ON K1S 5W8, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_b653d29fa25c4ab28ea6c853376d1ecb.setContent(html_0b2e58b7a3af46118b84a82e2bc342e1);
+        
+
+        marker_ff39c5be7d4949b9a8bef59baec9996a.bindPopup(popup_b653d29fa25c4ab28ea6c853376d1ecb)
+        ;
+
+        
+    
+    
+            marker_ff39c5be7d4949b9a8bef59baec9996a.bindTooltip(
+                `<div>
+                     $1950.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ebd88c145454844b9844f17406f64c0 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_d5dbb7272d4b4080909a074dd60991bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_0ebd88c145454844b9844f17406f64c0.setIcon(icon_d5dbb7272d4b4080909a074dd60991bc);
+        
+    
+            marker_0ebd88c145454844b9844f17406f64c0.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43069bdc75e94f3497b714b504ed6093 = L.marker(
+                [45.4215296, -75.69719309999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_27f7effe84a143d29c5cae333cea1f70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_43069bdc75e94f3497b714b504ed6093.setIcon(icon_27f7effe84a143d29c5cae333cea1f70);
+        
+    
+        var popup_cc548e03e0064196a609d21b22086be7 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_c3080f6dc7ff4e79b00290e53d8d497c = $(`<div id="html_c3080f6dc7ff4e79b00290e53d8d497c" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/heart-of-market-furnished-1-br/1488324295 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1750.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">, Ottawa K1N0B1 ON, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_cc548e03e0064196a609d21b22086be7.setContent(html_c3080f6dc7ff4e79b00290e53d8d497c);
+        
+
+        marker_43069bdc75e94f3497b714b504ed6093.bindPopup(popup_cc548e03e0064196a609d21b22086be7)
+        ;
+
+        
+    
+    
+            marker_43069bdc75e94f3497b714b504ed6093.bindTooltip(
+                `<div>
+                     $1750.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c65784013b16488a84955a192df692f7 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_8709d6460a514f14a303cc6332d35a36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_c65784013b16488a84955a192df692f7.setIcon(icon_8709d6460a514f14a303cc6332d35a36);
+        
+    
+            marker_c65784013b16488a84955a192df692f7.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_701fc3c828904bd79f0f82b296c50687 = L.marker(
+                [45.4163402, -75.6999104],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_11cbeaced06c43bc8223009f5b561860 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_701fc3c828904bd79f0f82b296c50687.setIcon(icon_11cbeaced06c43bc8223009f5b561860);
+        
+    
+        var popup_b716cfb4658a4b65b103578b74c47731 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_c75fab8f50534d368534e60ab1fb2b31 = $(`<div id="html_c75fab8f50534d368534e60ab1fb2b31" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/hudson-park-1-bed-1-bath-condo-for-lease-immediately/1488288151 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1800.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">K2P0A5, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_b716cfb4658a4b65b103578b74c47731.setContent(html_c75fab8f50534d368534e60ab1fb2b31);
+        
+
+        marker_701fc3c828904bd79f0f82b296c50687.bindPopup(popup_b716cfb4658a4b65b103578b74c47731)
+        ;
+
+        
+    
+    
+            marker_701fc3c828904bd79f0f82b296c50687.bindTooltip(
+                `<div>
+                     $1800.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9751e6d67e6c48cc94d640457a9200ca = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_5c3ab8f5c6c6409db45ba336f84aedc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_9751e6d67e6c48cc94d640457a9200ca.setIcon(icon_5c3ab8f5c6c6409db45ba336f84aedc0);
+        
+    
+            marker_9751e6d67e6c48cc94d640457a9200ca.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd9086faf7e34111a169f1e2e0345f21 = L.marker(
+                [45.4138264, -75.7027085],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_c63d7b7cb33143a683557d0eb3d2f53c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_bd9086faf7e34111a169f1e2e0345f21.setIcon(icon_c63d7b7cb33143a683557d0eb3d2f53c);
+        
+    
+        var popup_e7956127c1024bb3a3090cfedb095ff5 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_dff1076734a94e42ad3a3e6dbed697b3 = $(`<div id="html_dff1076734a94e42ad3a3e6dbed697b3" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/centretown-furnished-one-bedroom-apartment-for-rent/1487956153 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1850.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">307 Bay Street, K1R5Z7, Ottawa, ON</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_e7956127c1024bb3a3090cfedb095ff5.setContent(html_dff1076734a94e42ad3a3e6dbed697b3);
+        
+
+        marker_bd9086faf7e34111a169f1e2e0345f21.bindPopup(popup_e7956127c1024bb3a3090cfedb095ff5)
+        ;
+
+        
+    
+    
+            marker_bd9086faf7e34111a169f1e2e0345f21.bindTooltip(
+                `<div>
+                     $1850.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e431ac8703342ad83e53748cc8818ff = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_998988c84fa04a769efdef3608802d0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_8e431ac8703342ad83e53748cc8818ff.setIcon(icon_998988c84fa04a769efdef3608802d0c);
+        
+    
+            marker_8e431ac8703342ad83e53748cc8818ff.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b13e1555aa584c1ab06b566c76e68d6b = L.marker(
+                [45.41067779999999, -75.7008532],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_a20adc4e9eff4c81857e349a9ec54315 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_b13e1555aa584c1ab06b566c76e68d6b.setIcon(icon_a20adc4e9eff4c81857e349a9ec54315);
+        
+    
+        var popup_bbf5d0cd5ae14c4fb8ce12f5972d368d = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_63836fb3905c4f46b944057f173f2ecb = $(`<div id="html_63836fb3905c4f46b944057f173f2ecb" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/1-bedroom-apartment-in-centre-town-for-rent/1477254289 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1650.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">186 James St, Ottawa, ON K1R 5M7, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_bbf5d0cd5ae14c4fb8ce12f5972d368d.setContent(html_63836fb3905c4f46b944057f173f2ecb);
+        
+
+        marker_b13e1555aa584c1ab06b566c76e68d6b.bindPopup(popup_bbf5d0cd5ae14c4fb8ce12f5972d368d)
+        ;
+
+        
+    
+    
+            marker_b13e1555aa584c1ab06b566c76e68d6b.bindTooltip(
+                `<div>
+                     $1650.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2aaa27be966e43a9a3a53c22bd33978d = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_a89a32a416914dbb99c8c70bc621397f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_2aaa27be966e43a9a3a53c22bd33978d.setIcon(icon_a89a32a416914dbb99c8c70bc621397f);
+        
+    
+            marker_2aaa27be966e43a9a3a53c22bd33978d.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8014e467eae743b7b59bc1c5e54fb951 = L.marker(
+                [45.4127351, -75.6980233],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_dfcb8e10d4ff44e1810605609a2e4076 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_8014e467eae743b7b59bc1c5e54fb951.setIcon(icon_dfcb8e10d4ff44e1810605609a2e4076);
+        
+    
+        var popup_c806260aa987413393098f67906d0511 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_01737227962f42d2b97c98f247c44cb3 = $(`<div id="html_01737227962f42d2b97c98f247c44cb3" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/1-bedroom-apartments-furnished-unfurnished-available-right-away/1484582600 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1700.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">488 Gilmour St, Ottawa, ON K1R 5L4, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_c806260aa987413393098f67906d0511.setContent(html_01737227962f42d2b97c98f247c44cb3);
+        
+
+        marker_8014e467eae743b7b59bc1c5e54fb951.bindPopup(popup_c806260aa987413393098f67906d0511)
+        ;
+
+        
+    
+    
+            marker_8014e467eae743b7b59bc1c5e54fb951.bindTooltip(
+                `<div>
+                     $1700.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1f4cf0951e84587857bb5e043c13d55 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_87ea3d09b7e74ff98dad7f0fd06b1977 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_f1f4cf0951e84587857bb5e043c13d55.setIcon(icon_87ea3d09b7e74ff98dad7f0fd06b1977);
+        
+    
+            marker_f1f4cf0951e84587857bb5e043c13d55.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3264a386abd6428fb33cb5cb7e12f83e = L.marker(
+                [45.4315373, -76.356355],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_7ba2467548d941e5809687821b27d460 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "pink", "prefix": "fas fa"}
+            );
+            marker_3264a386abd6428fb33cb5cb7e12f83e.setIcon(icon_7ba2467548d941e5809687821b27d460);
+        
+    
+        var popup_f487d01644bb4df293d4908c9c967b70 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_bcdf2c3bdc7049bcb4e5c9e09c5e2f81 = $(`<div id="html_bcdf2c3bdc7049bcb4e5c9e09c5e2f81" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/one-bedroom-apartment/1487397938 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1000.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">, k7s2n1, Arnprior, ON</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_f487d01644bb4df293d4908c9c967b70.setContent(html_bcdf2c3bdc7049bcb4e5c9e09c5e2f81);
+        
+
+        marker_3264a386abd6428fb33cb5cb7e12f83e.bindPopup(popup_f487d01644bb4df293d4908c9c967b70)
+        ;
+
+        
+    
+    
+            marker_3264a386abd6428fb33cb5cb7e12f83e.bindTooltip(
+                `<div>
+                     $1000.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4404e6bbed9646b1a8ec90bb7969c666 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_c6406075fc454feeacd86fc6836fdcc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_4404e6bbed9646b1a8ec90bb7969c666.setIcon(icon_c6406075fc454feeacd86fc6836fdcc7);
+        
+    
+            marker_4404e6bbed9646b1a8ec90bb7969c666.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c32df7337d2e4cc6abbc9ed5e1b2d2a5 = L.marker(
+                [45.42760639999999, -75.68593249999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_546e80a9389b4c36b3b57f3bd2060221 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_c32df7337d2e4cc6abbc9ed5e1b2d2a5.setIcon(icon_546e80a9389b4c36b3b57f3bd2060221);
+        
+    
+        var popup_b381c97f96e9442e95a88cd60c5ed668 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_3c89eddad9004858964f072223ce7fb8 = $(`<div id="html_3c89eddad9004858964f072223ce7fb8" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/available-immediately-condo-downtown-ottawa-near-uottawa/1484387024 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1800.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">, K1N6B1, Ottawa, ON, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_b381c97f96e9442e95a88cd60c5ed668.setContent(html_3c89eddad9004858964f072223ce7fb8);
+        
+
+        marker_c32df7337d2e4cc6abbc9ed5e1b2d2a5.bindPopup(popup_b381c97f96e9442e95a88cd60c5ed668)
+        ;
+
+        
+    
+    
+            marker_c32df7337d2e4cc6abbc9ed5e1b2d2a5.bindTooltip(
+                `<div>
+                     $1800.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0c1214cd26747ffaa28c7258c199352 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_2c9dfa753f7f4dd9a683ab089d7da3a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_e0c1214cd26747ffaa28c7258c199352.setIcon(icon_2c9dfa753f7f4dd9a683ab089d7da3a8);
+        
+    
+            marker_e0c1214cd26747ffaa28c7258c199352.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3cf8256796884348a04150d74dec4d9b = L.marker(
+                [45.3439747, -75.72379409999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_4c3f82a4453d421e86bc1b6e75c50959 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_3cf8256796884348a04150d74dec4d9b.setIcon(icon_4c3f82a4453d421e86bc1b6e75c50959);
+        
+    
+        var popup_21778f02a9ed4038a4b3a530cde7bbdf = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_75fd300569fc4bad99565fd41e423b9f = $(`<div id="html_75fd300569fc4bad99565fd41e423b9f" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/fully-furnished-one-bedroom-condo-for-rent-may-1st/1487204444 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1500.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">216 Viewmount Dr, Nepean, ON K2E 7X2, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_21778f02a9ed4038a4b3a530cde7bbdf.setContent(html_75fd300569fc4bad99565fd41e423b9f);
+        
+
+        marker_3cf8256796884348a04150d74dec4d9b.bindPopup(popup_21778f02a9ed4038a4b3a530cde7bbdf)
+        ;
+
+        
+    
+    
+            marker_3cf8256796884348a04150d74dec4d9b.bindTooltip(
+                `<div>
+                     $1500.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe7b69b1f99148e3ac5c5cbe27f7e14b = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_ad2ec0cc09484a18b04eb194b2009dbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_fe7b69b1f99148e3ac5c5cbe27f7e14b.setIcon(icon_ad2ec0cc09484a18b04eb194b2009dbd);
+        
+    
+            marker_fe7b69b1f99148e3ac5c5cbe27f7e14b.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5df8739ca9ed4898a1e395764819af86 = L.marker(
+                [44.2969314, -78.3262682],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_b9a40fe6230b497a856dc294c6e45347 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "pink", "prefix": "fas fa"}
+            );
+            marker_5df8739ca9ed4898a1e395764819af86.setIcon(icon_b9a40fe6230b497a856dc294c6e45347);
+        
+    
+        var popup_4132982155374964b4b9e8701a5dc883 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_2f675a6d044f4f2887e50a952b45d079 = $(`<div id="html_2f675a6d044f4f2887e50a952b45d079" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/looking-for-one-bedroom-apartment/1487006044 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1000.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">125 Rubidge St, Peterborough, ON K9J 3N5, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_4132982155374964b4b9e8701a5dc883.setContent(html_2f675a6d044f4f2887e50a952b45d079);
+        
+
+        marker_5df8739ca9ed4898a1e395764819af86.bindPopup(popup_4132982155374964b4b9e8701a5dc883)
+        ;
+
+        
+    
+    
+            marker_5df8739ca9ed4898a1e395764819af86.bindTooltip(
+                `<div>
+                     $1000.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_baf5b3f4eda347dabdd535b3e7d47840 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_6e1ebb1df88047c7a8bb62ba00572cb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_baf5b3f4eda347dabdd535b3e7d47840.setIcon(icon_6e1ebb1df88047c7a8bb62ba00572cb7);
+        
+    
+            marker_baf5b3f4eda347dabdd535b3e7d47840.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb2d08e062c24e1f9a4df4bf2a383438 = L.marker(
+                [45.4153695, -75.7037667],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_25b2ffb677964674bcad344f389d1b69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_bb2d08e062c24e1f9a4df4bf2a383438.setIcon(icon_25b2ffb677964674bcad344f389d1b69);
+        
+    
+        var popup_f431fefa2a994a19843efbd72db9e674 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_849a9861ef5f4d3387b316d4000783be = $(`<div id="html_849a9861ef5f4d3387b316d4000783be" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/luxury-downtown-studio-condo-furnished-or-unfurnished/1477428194 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1700.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">255 Bay St, Ottawa, ON K1R 0C5, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_f431fefa2a994a19843efbd72db9e674.setContent(html_849a9861ef5f4d3387b316d4000783be);
+        
+
+        marker_bb2d08e062c24e1f9a4df4bf2a383438.bindPopup(popup_f431fefa2a994a19843efbd72db9e674)
+        ;
+
+        
+    
+    
+            marker_bb2d08e062c24e1f9a4df4bf2a383438.bindTooltip(
+                `<div>
+                     $1700.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a05177877e7a4502aa8211f630edf5a0 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_66b0ba3cc0db4dbd8958936afd782856 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_a05177877e7a4502aa8211f630edf5a0.setIcon(icon_66b0ba3cc0db4dbd8958936afd782856);
+        
+    
+            marker_a05177877e7a4502aa8211f630edf5a0.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31c950ee9b514823b13eb0e2b8a5e18e = L.marker(
+                [45.415779, -75.6797342],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_9c71a63be170486b9b9016db0d776e21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_31c950ee9b514823b13eb0e2b8a5e18e.setIcon(icon_9c71a63be170486b9b9016db0d776e21);
+        
+    
+        var popup_4bf7c328bb544a66a0dae0eca4aaafa0 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_bf78616bfb024cd3bad9f6819a2f4abd = $(`<div id="html_bf78616bfb024cd3bad9f6819a2f4abd" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/amazing-brand-new-condo-just-steps-away-from-the-rideau-canal/1486594403 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1800.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">150502 Greenfield Avenue, Ottawa K1S 0X8 ON</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_4bf7c328bb544a66a0dae0eca4aaafa0.setContent(html_bf78616bfb024cd3bad9f6819a2f4abd);
+        
+
+        marker_31c950ee9b514823b13eb0e2b8a5e18e.bindPopup(popup_4bf7c328bb544a66a0dae0eca4aaafa0)
+        ;
+
+        
+    
+    
+            marker_31c950ee9b514823b13eb0e2b8a5e18e.bindTooltip(
+                `<div>
+                     $1800.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02898174608c42ffa5cb7a1b5ac5bb0c = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_52cb52d14a7546748587e79315478802 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_02898174608c42ffa5cb7a1b5ac5bb0c.setIcon(icon_52cb52d14a7546748587e79315478802);
+        
+    
+            marker_02898174608c42ffa5cb7a1b5ac5bb0c.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfd2a721a4e942ca9a43b40014f02522 = L.marker(
+                [45.4231894, -75.6867803],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_22e67b3d6f11498e94777c39e4420c02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_dfd2a721a4e942ca9a43b40014f02522.setIcon(icon_22e67b3d6f11498e94777c39e4420c02);
+        
+    
+        var popup_7471434be11743df8083fa115c33ca07 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_16a79733ed0b4fbe8c831cb9bf08b978 = $(`<div id="html_16a79733ed0b4fbe8c831cb9bf08b978" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/beautiful-apartment-in-luxury-building-flexible-dates/1485692650 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1900.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">50 Laurier Ave E, Ottawa, ON K1N 1H7, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_7471434be11743df8083fa115c33ca07.setContent(html_16a79733ed0b4fbe8c831cb9bf08b978);
+        
+
+        marker_dfd2a721a4e942ca9a43b40014f02522.bindPopup(popup_7471434be11743df8083fa115c33ca07)
+        ;
+
+        
+    
+    
+            marker_dfd2a721a4e942ca9a43b40014f02522.bindTooltip(
+                `<div>
+                     $1900.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b571e37376f4626a1d9dc2b190bab8c = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_2985e505cf0c45ada5c0a134a807f542 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_9b571e37376f4626a1d9dc2b190bab8c.setIcon(icon_2985e505cf0c45ada5c0a134a807f542);
+        
+    
+            marker_9b571e37376f4626a1d9dc2b190bab8c.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91c3dd737e0f46c7903402a017ff678b = L.marker(
+                [45.4273499, -75.68827759999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_71fe41153b304cbf9749803208cfd021 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_91c3dd737e0f46c7903402a017ff678b.setIcon(icon_71fe41153b304cbf9749803208cfd021);
+        
+    
+        var popup_785b4d56bbde43fa8b395c84f74ccef7 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_f97c1cf0a9354c9791fa8b56803e0be9 = $(`<div id="html_f97c1cf0a9354c9791fa8b56803e0be9" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/200-rideau-st:-1-bedroom-1-bathroom-for-rent/1485630087 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1800.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">200 Rideau St, Ottawa, ON K1N 5Y1, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_785b4d56bbde43fa8b395c84f74ccef7.setContent(html_f97c1cf0a9354c9791fa8b56803e0be9);
+        
+
+        marker_91c3dd737e0f46c7903402a017ff678b.bindPopup(popup_785b4d56bbde43fa8b395c84f74ccef7)
+        ;
+
+        
+    
+    
+            marker_91c3dd737e0f46c7903402a017ff678b.bindTooltip(
+                `<div>
+                     $1800.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ecab15969484fa4903a702960d1e319 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_05e7dd8a0cd747449ac455211d3af65e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_7ecab15969484fa4903a702960d1e319.setIcon(icon_05e7dd8a0cd747449ac455211d3af65e);
+        
+    
+            marker_7ecab15969484fa4903a702960d1e319.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_246a4be6e5d04bdfa27cf0f0e6bb7d64 = L.marker(
+                [45.4152716, -75.70571919999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_f50d41d147874738884cc0c5e9abe95f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_246a4be6e5d04bdfa27cf0f0e6bb7d64.setIcon(icon_f50d41d147874738884cc0c5e9abe95f);
+        
+    
+        var popup_8d078d90ca244757b7550f2648b8587f = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_65353a34ff7445b49eb0fe2b8f821d0d = $(`<div id="html_65353a34ff7445b49eb0fe2b8f821d0d" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/beautiful-furnished-1-bedroom-condo-apartment-in-downtown-ottawa/1484383213 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1800.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">530 Laurier Ave W, Ottawa, ON K1R 7T1, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_8d078d90ca244757b7550f2648b8587f.setContent(html_65353a34ff7445b49eb0fe2b8f821d0d);
+        
+
+        marker_246a4be6e5d04bdfa27cf0f0e6bb7d64.bindPopup(popup_8d078d90ca244757b7550f2648b8587f)
+        ;
+
+        
+    
+    
+            marker_246a4be6e5d04bdfa27cf0f0e6bb7d64.bindTooltip(
+                `<div>
+                     $1800.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_605d27fda390494c81f08deabb308e2f = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_4eb5cfc355294abfa0d89195fb3647b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_605d27fda390494c81f08deabb308e2f.setIcon(icon_4eb5cfc355294abfa0d89195fb3647b9);
+        
+    
+            marker_605d27fda390494c81f08deabb308e2f.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73221af7e97e4406a8333679e6c2cdd9 = L.marker(
+                [45.4312973, -75.6773216],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_57dec698f8c6468ba0aa4be00791e82b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fas fa"}
+            );
+            marker_73221af7e97e4406a8333679e6c2cdd9.setIcon(icon_57dec698f8c6468ba0aa4be00791e82b);
+        
+    
+        var popup_f88c2f07e5da49229c5f28f1a6c8cb0a = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_1fd65320e3534901b51d7708c0df22a2 = $(`<div id="html_1fd65320e3534901b51d7708c0df22a2" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/spacious-furnished-main-floor-1-bedroom-apartment/1484119281 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1750.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">192 Cobourg Street, Ottawa K1N 8H6 ON</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_f88c2f07e5da49229c5f28f1a6c8cb0a.setContent(html_1fd65320e3534901b51d7708c0df22a2);
+        
+
+        marker_73221af7e97e4406a8333679e6c2cdd9.bindPopup(popup_f88c2f07e5da49229c5f28f1a6c8cb0a)
+        ;
+
+        
+    
+    
+            marker_73221af7e97e4406a8333679e6c2cdd9.bindTooltip(
+                `<div>
+                     $1750.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e6472232df3412d8d29c67560ebec09 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_943afe6ae4cf4231a996b2d65a808c20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_5e6472232df3412d8d29c67560ebec09.setIcon(icon_943afe6ae4cf4231a996b2d65a808c20);
+        
+    
+            marker_5e6472232df3412d8d29c67560ebec09.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfa603d51d08480e9bc2c0b411549ee8 = L.marker(
+                [45.3664273, -75.79335019999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_f49ba6607fbd4d21ba17f5751365c9eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_cfa603d51d08480e9bc2c0b411549ee8.setIcon(icon_f49ba6607fbd4d21ba17f5751365c9eb);
+        
+    
+        var popup_ba1510ad3c3244c5a4185d9c83af17ae = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_c3665c2876c34f21a87f05fa0f8ccc09 = $(`<div id="html_c3665c2876c34f21a87f05fa0f8ccc09" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/ir-posting:-furnished-one-bedroom-condo-near-carling-campus/1483318051 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1600.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">265 Poulin Ave, Ottawa, ON K2B 7Y8, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Condo</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_ba1510ad3c3244c5a4185d9c83af17ae.setContent(html_c3665c2876c34f21a87f05fa0f8ccc09);
+        
+
+        marker_cfa603d51d08480e9bc2c0b411549ee8.bindPopup(popup_ba1510ad3c3244c5a4185d9c83af17ae)
+        ;
+
+        
+    
+    
+            marker_cfa603d51d08480e9bc2c0b411549ee8.bindTooltip(
+                `<div>
+                     $1600.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f5ec54f59c04c07934691ec4bef20df = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_7ba27a7414244958b5dec15f0c112d71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_6f5ec54f59c04c07934691ec4bef20df.setIcon(icon_7ba27a7414244958b5dec15f0c112d71);
+        
+    
+            marker_6f5ec54f59c04c07934691ec4bef20df.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17fa1e72f8e64ac3a9156de848ab65cf = L.marker(
+                [45.3989074, -75.71127849999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_bb8518a57c284d13ade10adb32b0489b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_17fa1e72f8e64ac3a9156de848ab65cf.setIcon(icon_bb8518a57c284d13ade10adb32b0489b);
+        
+    
+        var popup_a6b9e575cbb740e8ad8c24033f6fa398 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_e2b2fb66d706430ba87c4400883285de = $(`<div id="html_e2b2fb66d706430ba87c4400883285de" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/fully-furnished-1-bedroom/1483285368 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1695.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">101 Champagne Ave S, Ottawa, ON K1S 4P4, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_a6b9e575cbb740e8ad8c24033f6fa398.setContent(html_e2b2fb66d706430ba87c4400883285de);
+        
+
+        marker_17fa1e72f8e64ac3a9156de848ab65cf.bindPopup(popup_a6b9e575cbb740e8ad8c24033f6fa398)
+        ;
+
+        
+    
+    
+            marker_17fa1e72f8e64ac3a9156de848ab65cf.bindTooltip(
+                `<div>
+                     $1695.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dc0209973164b7aa533270be33b9646 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_2bdee811b86b4dae85e5f5f801116561 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_9dc0209973164b7aa533270be33b9646.setIcon(icon_2bdee811b86b4dae85e5f5f801116561);
+        
+    
+            marker_9dc0209973164b7aa533270be33b9646.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_688fa0aa495d47d8a7a310d7314ad256 = L.marker(
+                [45.407605, -75.7134409],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_4e8fa4808cbc40acb675c3cfb3a65477 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_688fa0aa495d47d8a7a310d7314ad256.setIcon(icon_4e8fa4808cbc40acb675c3cfb3a65477);
+        
+    
+        var popup_ee0e7cd381904a099e81ced7e8308dbb = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_8b44a8df12b64f939e8b4f27a6cad98f = $(`<div id="html_8b44a8df12b64f939e8b4f27a6cad98f" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/furnished-1-bedroom-apartment/1482743929 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1625.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">139 Preston St, Ottawa, ON K1R 7P4, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_ee0e7cd381904a099e81ced7e8308dbb.setContent(html_8b44a8df12b64f939e8b4f27a6cad98f);
+        
+
+        marker_688fa0aa495d47d8a7a310d7314ad256.bindPopup(popup_ee0e7cd381904a099e81ced7e8308dbb)
+        ;
+
+        
+    
+    
+            marker_688fa0aa495d47d8a7a310d7314ad256.bindTooltip(
+                `<div>
+                     $1625.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36c69b632d0641bc901dd3c261948b96 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_d44c20ccc0974fa78e2225c6aa9dd792 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_36c69b632d0641bc901dd3c261948b96.setIcon(icon_d44c20ccc0974fa78e2225c6aa9dd792);
+        
+    
+            marker_36c69b632d0641bc901dd3c261948b96.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06048d9f8ba44d71bb6d439c96f02c6b = L.marker(
+                [44.2485684, -76.5877277],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_fcbffb43c0a7454eae87dcd78a494da3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "orange", "prefix": "fas fa"}
+            );
+            marker_06048d9f8ba44d71bb6d439c96f02c6b.setIcon(icon_fcbffb43c0a7454eae87dcd78a494da3);
+        
+    
+        var popup_f13ba393f5704d6a804e66e155d2213e = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_ed66b43fa5a545ef80f23c5857ad2437 = $(`<div id="html_ed66b43fa5a545ef80f23c5857ad2437" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/looking-for-a-one-or-two-bedroom/1481108244 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1300.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">K7M 6V6, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_f13ba393f5704d6a804e66e155d2213e.setContent(html_ed66b43fa5a545ef80f23c5857ad2437);
+        
+
+        marker_06048d9f8ba44d71bb6d439c96f02c6b.bindPopup(popup_f13ba393f5704d6a804e66e155d2213e)
+        ;
+
+        
+    
+    
+            marker_06048d9f8ba44d71bb6d439c96f02c6b.bindTooltip(
+                `<div>
+                     $1300.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8a20235dd9c472fa353ce9ac206cde2 = L.marker(
+                [45.3846817946, -75.6908639032],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_991f92166a374d32a2e9031c0d16a065 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "blue", "prefix": "fas fa"}
+            );
+            marker_f8a20235dd9c472fa353ce9ac206cde2.setIcon(icon_991f92166a374d32a2e9031c0d16a065);
+        
+    
+            marker_f8a20235dd9c472fa353ce9ac206cde2.bindTooltip(
+                `<div>
+                     Carleton University
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0814ff08d9e1494686da69a9b9ff95f7 = L.marker(
+                [45.3989074, -75.71127849999999],
+                {}
+            ).addTo(map_0fd464382f38448d847bbb909dd58d96);
+        
+    
+            var icon_bc5254c3942943839bfb8727081caa42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "pink", "prefix": "fas fa"}
+            );
+            marker_0814ff08d9e1494686da69a9b9ff95f7.setIcon(icon_bc5254c3942943839bfb8727081caa42);
+        
+    
+        var popup_b8c53e51e2a94a1bba516b7b4b6a67d2 = L.popup({"maxWidth": 200, "minWidth": 200});
+
+        
+            var html_77a374b53beb4bcfbf9353b8ce6edcbb = $(`<div id="html_77a374b53beb4bcfbf9353b8ce6edcbb" style="width: 100.0%; height: 100.0%;">     <html>         <body>             <a href=https://www.kijiji.ca/v-apartments-condos/ottawa/best-single-room-near-the-carlton-u/1480986270 style="color: black; text-decoration: none !important" onMouseOver="this.style.color='#1E90FF'" onMouseOut="this.style.color='black'">                 <div style="font-size: 2rem; font-weight: bold; padding-bottom: 0.3rem">$1025.00</div>                 <div style="font-size: 1.6rem; padding-bottom: 1rem">101 Champagne Ave S, Ottawa, ON K1S 4P4, Canada</div>                 <div style="font-size: 1.3rem">Unit Type: Apartment</div>             </a>         </body>     </html>     </div>`)[0];
+            popup_b8c53e51e2a94a1bba516b7b4b6a67d2.setContent(html_77a374b53beb4bcfbf9353b8ce6edcbb);
+        
+
+        marker_0814ff08d9e1494686da69a9b9ff95f7.bindPopup(popup_b8c53e51e2a94a1bba516b7b4b6a67d2)
+        ;
+
+        
+    
+    
+            marker_0814ff08d9e1494686da69a9b9ff95f7.bindTooltip(
+                `<div>
+                     $1025.00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
